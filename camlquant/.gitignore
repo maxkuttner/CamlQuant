@@ -1,0 +1,71 @@
+# Dune build directories
+/_build/
+/_build*/
+.dune/
+.dune-config/
+.dune-project
+
+# Local installation artifacts
+_install/
+.install/
+*.install
+
+# Generated files
+*.cmi
+*.cmo
+*.cmx
+*.cmt
+*.cmti
+*.o
+*.a
+*.cmxa
+*.cmxs
+*.cma
+*.annot
+
+# Documentation
+doc/
+docs/_build/
+*.odocl
+*.odoc
+*.html
+
+# Test outputs
+/_coverage/
+/_coverage*/ 
+*.coverage
+*.profraw
+*.profdata
+
+# OPAM
+*.opam.locked
+.opam/
+.opam-switch/
+.opam-switch/*
+.opam/
+
+# Top-level REPL history and temporary files
+.ocamlinit
+.ocaml_history
+*.byte
+*.native
+
+# Temporary / cache files
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Merlin / Editor tooling
+.merlin
+.merlin-external
+.idea/
+.vscode/
+*.kate-swp
+*.log
+
+# Sandboxing / testing environments
+sandbox/
+tmp/
