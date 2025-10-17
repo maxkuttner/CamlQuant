@@ -10,7 +10,8 @@ A leg represents a single slice of an investment decision.
 It captures everything you need to enter a trade with a counterparty: which instrument, at what price, and in what quantity.
 A position is a complete investment decision, composed of one or more legs. 
 A simple long stock position has one leg; a more complex strategy like 
-an iron condor has multiple legs across different strikes and expirations.
+an option straddle (or any other combination of options) 
+has multiple legs across different strikes and expirations.
 A strategy is a container for investments. It can hold positions directly, or 
 it can hold other strategies—creating a hierarchy. 
 This recursion gives us a high degree of flexibility: whether you're modeling a 
